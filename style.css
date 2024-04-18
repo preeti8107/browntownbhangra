@@ -1,0 +1,172 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(236, 234, 234, 0.578);
+}
+
+.navbar{
+    background-color: white;
+
+
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor:pointer;
+    text-decoration: none;
+    
+
+}
+
+.nav-link:hover{
+    color:white !important;
+    background-color: rgb(218, 108, 165);
+}
+
+
+.navbar-brand{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.main{
+    width: 100%;
+    height: 95vh;
+
+}
+.main h1{
+    font-size: 4.4rem;
+    font-weight: 700;
+
+}
+
+.main h6{
+    font-size: 1.4rem;
+    text-transform:uppercase;
+    line-height: 1;
+    border-bottom: 3px solid rgb(218, 108, 165);
+    width: 55%;
+
+}
+
+.main .bt1{
+    height: 55px;
+    width: 138px;
+    background-color:rgb(218, 108, 165) ;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.main .bt1:hover{
+    background-color: transparent ;
+    transition: 0.5s;
+    color:rgb(218, 108, 165);
+
+}
+.main .bt2{
+    height: 55px;
+    width: 138px;
+    background-color:transparent ;
+    color: rgb(218, 108, 165);
+    outline: none;
+    border: 1px solid rgb(218, 108, 165);
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+.main .bt2:hover{
+    background-color: rgb(218, 108, 165) ;
+    transition: 0.5s;
+    color:white;
+
+}
+
+#dp{
+    width: 30%;
+    border-radius: 500px;
+    float: right;
+    margin-top:15%;
+    margin-right:10%;
+    border: 1px solid rgb(151, 226, 239);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+#bhangra{
+    max-width: 30%;
+    height: 30%;
+}
+
+.aboutblock{
+    float:inline-end;
+}
+
+.about {
+    padding: 50px 0;
+  }
+  
+  .about .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about img {
+    max-width: 100%;
+  }
+  .btncontact{
+    background: white;
+    border-color: rgb(218, 108, 165);
+  }
+  .btn:hover{
+    background-color: rgb(218, 108, 165);
+    color: white;
+    font-weight: 700;
+  }
+  .heading{
+    text-align: center;
+  }
+  .content{
+    text-align: center;
+  }
+  .card{
+    border:none;
+    outline:none;
+  }
+  .card p{
+    color: gray;
+  }
+  .circle{
+    height: 70px;
+    width: 70px;
+    background-color: lightgrey;
+    padding: 12px;
+    color: black;
+    display:inline-block;
+    margin-bottom:20px;
+    border-radius: 50%;
+    padding-top:5%;
+
+  }
+
+ .circle:hover .circle{
+     background: black;
+     color: white;
+     transition: 0.5s;
+ }
+ a{
+    text-decoration: none;
+    color: black;
+ }
